@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Unzip source
-        run: unzip -o soft.zip -d source
+        run: unzip -o source.zip -d source
 
       - uses: actions/setup-java@v4
         with:
